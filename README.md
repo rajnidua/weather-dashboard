@@ -24,6 +24,10 @@ Screenshots :[Tokyo weather data](./Assets/images/Screenshot1.jpeg)
 
 [Singapore weather data, temp in degree fahrenheit](./Assets/images/Screenshot4.jpeg)
 
+live app link :  https://rajnidua.github.io/weather-dashboard/
+
+Github link : https://github.com/rajnidua/weather-dashboard
+
 
 
 
