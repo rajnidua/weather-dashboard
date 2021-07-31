@@ -1,7 +1,9 @@
-# weather-dashboard
+## weather-dashboard
 dashboard for current and forecast weather data for a given city
 
-#Weather Dashboard
+``` diff
+##Weather Dashboard
+```
 
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
@@ -16,19 +18,23 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 
-Screenshots :[Tokyo weather data](./Assets/images/Screenshot1.jpeg)
+## Screenshots :
 
-[Adelaide weather data](./Assets/images/Screenshot2.jpeg)
+![Tokyo weather data](./Assets/images/Screenshot1.jpeg)
 
-[Sydney weather data](./Assets/images/Screenshot3.jpeg)
+![Adelaide weather data](./Assets/images/Screenshot2.jpeg)
 
-[Singapore weather data, temp in degree fahrenheit](./Assets/images/Screenshot4.jpeg)
+![Sydney weather data](./Assets/images/Screenshot3.jpeg)
+
+![Singapore weather data, temp in degree fahrenheit](./Assets/images/Screenshot4.jpeg)
 
 live app link :  https://rajnidua.github.io/weather-dashboard/
 
 Github link : https://github.com/rajnidua/weather-dashboard
 
-Tools and Technologies: HTML, CSS, Javascript, Serverside API using Fetch
+## Tools and Technologies
+
+HTML, CSS, Javascript, Serverside API using Fetch
 
 ## Lisence & copyright
 
