@@ -28,6 +28,13 @@ live app link :  https://rajnidua.github.io/weather-dashboard/
 
 Github link : https://github.com/rajnidua/weather-dashboard
 
+Tools and Technologies: HTML, CSS, Javascript, Serverside API using Fetch
+
+## Lisence & copyright
+
+&copy;  Rajni Dua
+
+Licensed under the [MIT License](LICENSE)
 
 
 
