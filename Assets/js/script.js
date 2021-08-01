@@ -73,7 +73,7 @@ var formSubmitHandler = function (event) {
 var getcityrepos = function (city) {
   console.log("fgbsfgnsf");
   //var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=75458c08fa474ac348f9900cc8ef4e74';
-  var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=75458c08fa474ac348f9900cc8ef4e74';
+  var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=75458c08fa474ac348f9900cc8ef4e74';
 
   fetch(apiUrl)
     .then(function (response) {
@@ -113,7 +113,7 @@ function getFiveDayForecast(requestedCity,dayNumber,myLatitude,myLongitude){
           console.log(data);
           var currentImageIcon = document.createElement('img');
           var makeImageIcon = data.current.weather[0].icon;
-          currentImageIcon.setAttribute("src","http://openweathermap.org/img/wn/"+makeImageIcon+".png");
+          currentImageIcon.setAttribute("src","https://openweathermap.org/img/wn/"+makeImageIcon+".png");
           currentImageIcon.setAttribute("class","myIcon");
           citySearchTerm.textContent = requestedCity + "(" + calculateCityDate(data.current.dt) + ")" ;
           citySearchTerm.appendChild(currentImageIcon);
@@ -183,7 +183,7 @@ function getForecast(data){
 
     var liImage = document.createElement('img');
     var makeImageIcon = data.daily[i].weather[0].icon + "@2x";
-    liImage.setAttribute("src","http://openweathermap.org/img/wn/"+makeImageIcon+".png");
+    liImage.setAttribute("src","https://openweathermap.org/img/wn/"+makeImageIcon+".png");
     forecastUl1.appendChild(liImage);
 
     var liTemp = document.createElement('li');
